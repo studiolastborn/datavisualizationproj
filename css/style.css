@@ -1,0 +1,11 @@
+.few .dygraph-legend > span.highlight { border: 1px solid grey; }
+.many .dygraph-legend > span { display: none; }
+.many .dygraph-legend > span.highlight { display: inline; }
+
+#tooltip0, #tooltip1, #tooltip2, #tooltip3 {
+	background-color: black;
+	color: white;
+	text-align: center;
+	z-index: 20;
+	display: none;
+}
